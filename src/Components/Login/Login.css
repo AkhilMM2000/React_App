@@ -1,0 +1,70 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Makes the container take up the full viewport height */
+    padding: 20px; /* Adds some spacing on smaller screens */
+    background-color: #141414; /* Netflix dark background color */
+  }
+  
+  .login-box {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #e50914; /* Netflix red */
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e50914; /* Netflix red */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #f40612; /* Slightly lighter red */
+  }
+  

@@ -1,0 +1,51 @@
+.username {
+    color: white; /* White text color */
+    font-size: 16px; /* Adjust size to be readable */
+    font-weight: bold; /* Make it stand out */
+    letter-spacing: 0.5px; /* Slightly spaced letters */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+    margin-right: 10px; /* Add space from adjacent elements */
+    display: inline-block; /* Align properly */
+    cursor: default; /* Avoid pointer cursor */
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgb(108, 105, 105); */
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#1d1212);
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.login-btn:hover {
+    background-color: darkred;
+}
